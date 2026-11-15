@@ -2,6 +2,8 @@
 
 A small desktop GUI for [tdl](https://github.com/iyear/tdl), the Telegram downloader. Paste message links, pick a folder, click **Download**.
 
+![tdl-gui-rs main window](docs/screenshot.png)
+
 Built with Rust and [egui](https://github.com/emilk/egui). The app does not talk to Telegram itself: it runs the `tdl` command-line tool and shows its progress.
 
 ## Features
