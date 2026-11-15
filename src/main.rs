@@ -313,6 +313,13 @@ impl eframe::App for App {
                     {
                         self.import_txt();
                     }
+                    let can_clear = !downloading && !self.urls_text.is_empty();
+                    if ui
+                        .add_enabled(can_clear, egui::Button::new("Clear"))
+                        .clicked()
+                    {
+                        self.urls_text.clear();
+                    }
                 });
             });
             ui.add_space(4.0);

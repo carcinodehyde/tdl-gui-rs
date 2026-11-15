@@ -10,6 +10,7 @@ Built with Rust and [egui](https://github.com/emilk/egui). The app does not talk
 
 - Large text area for Telegram message links, one per line
 - **Import TXT…** to load links from a text file
+- **Clear** to empty the text area
 - Download folder selector
 - Progress bar, status line and a collapsible `tdl` output log
 - **Cancel** button while a download is running
